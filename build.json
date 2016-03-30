@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ReadyMadeRC/ZMR-250",
+    "esc": "Flyduino/KISS-18A-3D",
+    "motor": "EMAX/MT2204-2300KV",
+    "fc": "UnknownManufacturer/banggood/NAZE32-REV6-MPU6050-32-bit-6-DOF-10-DOF-Flight-Controller-for-Multicopter",
+    "prop": [
+      "Diatone/5x3-Diatone-Propellors-Black"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/4S-1800mAh-75C"
+    ],
+    "osd": "ReadyToFlyQuads/Micro-MinimOSD",
+    "receiver": "OrangeRx/2.4G-Receiver-DSM2-With-PPM-6-channel",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "",
+    "voltagereg": "Rotorgeeks/Mini-Stepdown-Regulator"
+  },
+  "version": 1
 }
